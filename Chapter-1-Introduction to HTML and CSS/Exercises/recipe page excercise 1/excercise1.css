@@ -1,0 +1,44 @@
+.dish {
+  /*This targets the dish class */
+  text-align: center; /*This property aligns the text in center*/
+}
+
+.ing {
+  /*This targets the ing class */
+  border: 2px solid lightslategray; /*This property adds a lightslategrey color border with a width of 2px around the element of this class */
+  background-color: #b9d2b1; /*This property sets the background color*/
+  line-height: 1.2; /*sets the height of each line of text within the element to be 1.2 times the height of the font.*/
+}
+
+.main {
+  /*This targets the class main*/
+  display: inline-flex; /*Displays the text inline by adding display:inline-flex in main class the ingredients and the method display inline */
+}
+
+.meth {
+  /*This targets the class meth*/
+  border: 2px solid lightslategray; /*This property adds a lightslategrey color border with a width of 2px around the element of this class */
+  background-color: #b9d2b1; /*This property sets the background color*/
+}
+
+.meth h2 {
+  /*targets the meth class */
+  text-align: center; /*This aligns the text to the center */
+}
+
+.ing h2 {
+  /*targets the ing class*/
+  text-align: center; /*aligns the text to the center*/
+}
+
+img {
+  /*targets the img class*/
+  height: 450px; /*sets the height of the img to 450 pixels*/
+  width: 650px; /*sets the width of the width of the img to 650 pixels*/
+  margin-left: auto; /*centers the img horizontally by setting equal margins on the left*/
+  margin-right: auto; /*centers the img horizontally by setting equal margins on the right*/
+}
+
+body {
+  background-color: #839791; /*Sets the background color of the body*/
+}
