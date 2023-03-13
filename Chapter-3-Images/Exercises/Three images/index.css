@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+h1 {
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 500;
+  border: 2px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3 {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-bottom: 60px;
+  margin-left: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.one {
+  filter: blur(0.6px);
+  filter: brightness(60%);
+  filter: hue-rotate(180deg);
+}
+
+.two {
+  filter: opacity(95%);
+  filter: contrast(150%);
+}
+
+.three {
+  filter: sepia(85%);
+}
+
+body {
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  border: 5px solid black;
+  border-style: dotted;
+}
