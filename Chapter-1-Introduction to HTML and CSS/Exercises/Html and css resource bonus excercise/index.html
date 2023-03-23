@@ -8,35 +8,50 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!--The body element contains the main content of the document-->
     <header>
+      <!--The header tag nested with h1 tag shows the header of the page-->
       <h1>HTML and CSS Reference Guide</h1>
       <nav>
+        <!-- The nav tag defines the navigation section of a webpage -->
         <ul>
+           <!-- The ul tag defines an unordered list of items -->
           <li><a href="#html-tags">HTML Tags</a></li>
+          <!-- The li tag defines a list item and the a tag defines a hyperlink to the section with id=html-tags-->
           <li><a href="#css-properties">CSS Properties</a></li>
+          <!-- The li tag defines a list item and the a tag defines a hyperlink to the section with id=css-properties-->
         </ul>
       </nav>
     </header>
+    <div class="main">
+      <!--The div tag with class named main is used to present a division in the webpage-->
     <section id="html-tags">
-
+      <!--The section tag with id named html-tags is used to present a section in the webpage -->
+      <h2>HTML tags</h2>
+      <!--h2 tag defines the second largest heading-->
       <h3>Heading tags</h3>
+      <!--h3 tag defines the third largest heading-->
       <p>These tags are used  to create headings in your HTML document.
         h1 represents the most important heading while h6 represents the least important heading.</p>
+         <!-- The p tag defines a paragraph -->
       <div class="box">
+        <!--the div tag with class named box is used to present a division in the webpage-->
       <h1>heading 1</h1>
-      <h2>heading 2</h2>
-      <h3>heading 3</h3>
+      <h2 id="h2">heading 2</h2>
+      <h3 id="h3">heading 3</h3>            <!--All these heading tags are added in the  box to show what they do-->
       <h4>heading 4</h4>
       <h5>heading 5</h5>
       <h6>heading 6</h6>
       </div>
 
-      <pre>
+      <pre>  
+        <!--Pre tag represents a block of preformatted text-->   
         <code>
+          <!--code tag is used to show a piece of computer code-->
 &lt;h1&gt;Heading 1&lt;/h1&gt; 
 &lt;h2&gt;Heading 2&lt;/h2&gt;
-&lt;h3&gt;Heading 3&lt;/h3&gt; 
-&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;              <!--&lt defines the symbol [<] and &gt defines the symbol [>]-->
+&lt;h4&gt;Heading 4&lt;/h4&gt;              
 &lt;h5&gt;Heading 5&lt;/h5&gt; 
 &lt;h6&gt;Heading 6&lt;/h6&gt;
         </code>
@@ -44,51 +59,64 @@
 
 
       <h3>paragraph tag</h3>
+      <!--h3 tag defines the third largest heading-->
       <p>This tag is used to create paragraphs of text.</p>
+      <!-- The p tag defines a paragraph -->
       <div class="box">
-      <p>this is what p tag does</p>
+        <!--the div tag with class named box is used to present a division in the webpage-->
+      <p>this is what p tag does</p>                 <!--P tag is added in the box to show what it does-->
       </div>
       <pre>
         <code>
-            &lt;p&gt;This is a paragraph.&lt;/p&gt;
-        </code>
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;   <!--&lt defines the symbol [<] and &gt defines the symbol [>]-->
+        </code> 
       </pre>
 
       <h3>Link tag</h3>
+       <!--h3 tag defines the third largest heading-->
       <p>This tag is used to create links to other web pages or resources. The href attribute specifies the URL of the target resource
         and the text between the opening and closing tags is what the user clicks on to follow the link.</p>
+       <!-- The p tag defines a paragraph -->
       <div class="box">
-      <a href="https://www.youtube.com">Youtube link</a>
+        <!--the div tag with class named box is used to present a division in the webpage-->
+      <a href="https://www.youtube.com">Youtube link</a>       <!--a tag is added in the box to show what it does-->
       </div>
       <pre>
         <code>
-            &lt;a href="https://www.youtube.com"</a>&gt;Link Text&lt;/a&gt;
+            &lt;a href="https://www.youtube.com"</a>&gt;Link Text&lt;/a&gt;   <!--&lt defines the symbol [<] and &gt defines the symbol [>]-->
         </code>
       </pre>
 
       
       <h3>Image tag</h3>
+      <!--h3 tag defines the third largest heading-->
       <p>This tag is used to insert images into your web page. The src attribute specifies the URL of the image file, while the alt 
         attribute provides alternative text for screen readers or if the image cannot be displayed.</p>
+        <!-- The p tag defines a paragraph -->
       <div class="box">
-      <img src="robot.jpg" alt="robot img">  
+        <!--the div tag with class named box is used to present a division in the webpage-->
+      <img src="robot.jpg" alt="robot img">     <!--img tag is added in the box to show what it does-->
       <p>This is a picture of a robot</p>
       </div>
       <pre>
         <code>
-            &lt;img src="robot.png" alt="image description"&gt;
+            &lt;img src="robot.png" alt="image description"&gt;          <!--&lt defines the symbol [<] and &gt defines the symbol [>]-->
         </code>
       </pre>
 
 
       <h3>List Tags</h3>
+       <!--h3 tag defines the third largest heading-->
       <h5>Unordered List</h5>
+      <!--h5 tag defines the fifth largest heading-->
       <p>It is used to create an unordered list of items. The list items are preceded by bullet points, which are automatically
         generated by the browser.</p>
+        <!-- The p tag defines a paragraph -->
       <div class="box">
+         <!--the div tag with class named box is used to present a division in the webpage-->
        <ul>
         <li>Item 1</li>
-        <li>Item 2</li>
+        <li>Item 2</li>         <!--li tag nested in ul is added in the box to show what it does-->
         <li>Item 3</li>
        </ul>
       </div>
@@ -96,18 +124,21 @@
         <code>
 &lt;ul&gt;
 &lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;            <!--&lt defines the symbol [<] and &gt defines the symbol [>]-->
 &lt;li&gt;Item 3&lt;/li&gt;
 &lt;/ul&gt;
         </code>
       </pre>
 
       <h5>Ordered List</h5>
+       <!--h5 tag defines the fifth largest heading-->
       <p>It is used to create an ordered list of items. The list items are numbered sequentially by the browser.</p>
+      <!-- The p tag defines a paragraph -->
       <div class="box">
+         <!--the div tag with class named box is used to present a division in the webpage-->
        <ol>
         <li>Item 1</li>
-        <li>Item 2</li>
+        <li>Item 2</li>        <!--li tag nested in ul is added in the box to show what it does-->
         <li>Item 3</li>
        </ol>
       </div>
@@ -115,7 +146,7 @@
         <code>
 &lt;ol&gt;
 &lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;       <!--&lt defines the symbol [<] and &gt defines the symbol [>]-->
 &lt;li&gt;Item 3&lt;/li&gt;
 &lt;/ol&gt;
         </code>
@@ -123,59 +154,76 @@
 
 
       <h3>Subscript tag</h3>
+      <!--h3 tag defines the third largest heading-->
       <p>It is used to create subscript text in your HTML document where the text is placed below the baseline of the rest of the text.</p>
+      <!-- The p tag defines a paragraph -->
       <div class="box">
-       l<sub>o</sub>l
+         <!--the div tag with class named box is used to present a division in the webpage-->
+       l<sub>o</sub>l       <!--sub tag is added in the box to show what it does-->
       </div>
       <pre>
         <code>
-            &lt;sub&gt;Text&lt;/sub&gt;
+            &lt;sub&gt;Text&lt;/sub&gt;              <!--&lt defines the symbol [<] and &gt defines the symbol [>]-->
         </code>
       </pre>
 
 
       <h3>Superscript tag</h3>
+      <!--h3 tag defines the third largest heading-->
       <p>It is used to create superscript text in your HTML document where the text is placed above the baseline of the rest of the text.</p>
+      <!-- The p tag defines a paragraph -->
       <div class="box">
-       w<sup>o</sup>w 
+        <!--the div tag with class named box is used to present a division in the webpage-->
+       w<sup>o</sup>w     <!--sup tag is added in the box to show what it does-->
       </div>
       <pre>
         <code>
-            &lt;blockquote&gt;Text&lt;/blockquote&gt;
+            &lt;sup&gt;Text&lt;/sup&gt;              <!--&lt defines the symbol [<] and &gt defines the symbol [>]--> 
         </code>
       </pre>
 
     
 
       <h3>Blockquote tag</h3>
+            <!--h3 tag defines the third largest heading-->
       <p>This tag is used to create a blockquote, which is a quotation from another source that is presented as a separate block of text.</p>
+      <!-- The p tag defines a paragraph -->
       <div class="box">
-        <blockquote> You only live once, but if you do it right, once is enough.</blockquote>
+        <!--the div tag with class named box is used to present a division in the webpage-->
+        <blockquote> You only live once, but if you do it right, once is enough.</blockquote>    <!--blockquote tag is added in the box to show what it does-->
       </div>
       <pre>
         <code>
-            &lt;blockquote&gt;Text&lt;/blockquote&gt;
+            &lt;blockquote&gt;Text&lt;/blockquote&gt;      <!--&lt defines the symbol [<] and &gt defines the symbol [>]--> 
         </code>
       </pre>
 
 
       <h3>Bold tag</h3>
+      <!--h3 tag defines the third largest heading-->
       <p>This tag is used to bold text, which makes it stand out from the surrounding content.</p>
+        <!-- The p tag defines a paragraph -->
       <div class="box">
-       <b>This is a bold text.</b>
+        <!--the div tag with class named box is used to present a division in the webpage-->
+       <b>This is a bold text.</b>          <!--b tag is added in the box to show what it does-->
       </div>
       <pre>
         <code>
-            &lt;b&gt;Text&lt;/b&gt;
+            &lt;b&gt;Text&lt;/b&gt;        <!--&lt defines the symbol [<] and &gt defines the symbol [>]--> 
         </code>
       </pre>
 
     <section id="css-properties">
+       <!--The section tag with id named css-properties is used to present a section in the webpage -->
         <h2>Css properties</h2>
+        <!--h2 tag defines the second largest heading-->
         <h3>Background Color</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The background-color property sets the background color of an element.</p>
-        <div class="box" style="background-color: yellow;">
-          <p>This is a box with a yellow background color.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="yellow">
+           <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with a yellow background color.</p>  <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -187,9 +235,12 @@
 
   
         <h3>Color</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The color property specifies the color of the text.</p>
-        <div class="box" style="color: blue;">
-          <p>This is a box with blue text color.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="blue">
+          <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with blue text color.</p>        <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -201,9 +252,12 @@
 
 
         <h3>Font Size</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The font-size property sets the font size of an element's text content.</p>
-        <div class="box" style="font-size: 32px;">
-          <p>This is a box with larger font size text.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="font">
+          <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with 32px font size text.</p>     <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -215,9 +269,12 @@
   
 
         <h3>Font Family</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The font-family property sets the font family of an element's text content.</p>
-        <div class="box" style="font-family: 'Times New Roman', serif;">
-          <p>This is a box with Times New Roman font.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="fontfam">
+         <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with Times New Roman font.</p>        <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -229,9 +286,12 @@
   
 
         <h3>Text Align</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The text-align property sets the horizontal alignment of an element's text content.</p>
-        <div class="box" style="text-align: right;">
-          <p>This is a box with right-aligned text.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="align">
+         <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with right-aligned text.</p>         <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -243,9 +303,12 @@
   
 
         <h3>Padding</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The padding property sets the padding between an element's content and its border.</p>
-        <div class="box" style="padding: 50px;">
-          <p>This is a box with extra padding.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="padding">
+           <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with extra padding.</p>          <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -257,9 +320,12 @@
   
 
         <h3>Margin</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The margin property in CSS is used to define the amount of space around an HTML element, outside of its border.</p>
-        <div class="box" style="margin: 30px;">
-          <p>This is a box with a margin of 30px.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="margin">
+           <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with a margin of 30px.</p>       <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -271,9 +337,12 @@
         
     
         <h3>Height</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The height property in CSS is used to set the height of an element, which determines the vertical space it takes up on a web page. </p>
-        <div class="box" style="height: 90px;">
-          <p>This is a box with a height of 90px.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="height">
+           <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>This is a box with a height of 90px.</p>       <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -285,9 +354,12 @@
 
 
         <h3>width</h3>
+        <!--h3 tag defines the third largest heading-->
         <p>The width property in CSS is used to set the width of an element, which determines the horizontal space it takes up on a web page.</p>
-        <div class="box" style="width: 70px;">
-          <p>This is a box with the width of 70px.</p>
+        <!-- The p tag defines a paragraph -->
+        <div class="box" id="width">
+           <!--the div tag with class named box is used to present a division in the webpage-->
+          <p>A box with the width of 70px.</p>         <!--p tag is added in the box to show what it does-->
         </div>
         <pre>
           <code>
@@ -295,9 +367,6 @@
               width: 70px;
             }
           </code>
-        </pre>
-
-      </body>
-    </html>
+      </div>
   </body>
 </html>
