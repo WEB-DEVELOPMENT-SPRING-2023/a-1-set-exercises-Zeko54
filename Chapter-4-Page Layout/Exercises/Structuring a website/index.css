@@ -1,6 +1,5 @@
 header {
   font-family: Tahoma;
-  font-weight: 700;
   text-align: center;
   padding-top: 15px;
   background-color: #17072b;
@@ -33,10 +32,13 @@ body {
 h1 {
   margin: 0;
   text-decoration: underline;
+  text-underline-offset: 5.5px;
+  font-weight: 700;
 }
 
 h2 {
   text-decoration: underline;
+  text-underline-offset: 5.5px;
 }
 
 section {
