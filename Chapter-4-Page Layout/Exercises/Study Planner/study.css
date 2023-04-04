@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(202, 194, 187);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #adb0cc;
+  font-family: "Alkatra", cursive;
+  color: #fff;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  padding: 40px;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: #565c9b;
+}
+
+nav {
+  background-color: #d6d3c2;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#tasks {
+  border-radius: 30px;
+}
+
+#tasks h2 {
+  text-align: center;
+}
+
+aside {
+  background-color: #d6d3c2;
+  font-family: "Ubuntu", sans-serif;
+  font-size: large;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-bottom: 46px;
+  margin: 60px 85px 35px 10px;
+  width: 32%;
+  float: right;
+}
+
+aside h2 {
+  color: #565c9b;
+}
+
+button {
+  background-color: #565c9b;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  left: 440px;
+  bottom: 52px;
+  padding: 10px 20px;
+}
+
+#intro {
+  background-color: #d6d3c2;
+  font-family: "Ubuntu", sans-serif;
+  margin: 60px 10px 35px 85px;
+  display: inline-block;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #565c9b;
+}
+
+#intro h2 {
+  padding-left: 6cm;
+}
+
+#schedule {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#schedule table {
+  width: 90%;
+  margin-left: 2cm;
+  border-collapse: collapse;
+  font-size: 21px;
+}
+
+#schedule th,
+#schedule td {
+  border: 1px solid #f3eded;
+  padding: 8px;
+  text-align: left;
+}
+
+#schedule th {
+  background-color: #cac2bb;
+  color: black;
+}
+
+#schedule tr {
+  color: rgb(41, 32, 32);
+}
+
+#schedule tr:nth-child(even) {
+  background-color: #dcd4d4;
+}
+#theader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcd4d4;
+  color: #565c9b;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 2cm;
+  margin-right: 73px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#resources {
+  border: 2px solid #d6d3c2;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 30px;
+  display: inline-block;
+  background-color: #d6d3c2;
+  margin-left: 6cm;
+  margin-top: 2cm;
+  margin-bottom: 1cm;
+  width: 400px;
+  height: 320px;
+  font-size: 21px;
+}
+
+#resources h2 {
+  text-align: center;
+  color: #565c9b;
+}
+
+#assignments {
+  border: 2px solid #d6d3c2;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 30px;
+  background-color: #d6d3c2;
+  float: right;
+  margin-right: 6cm;
+  margin-top: 2cm;
+  margin-bottom: 1cm;
+  width: 400px;
+  height: 320px;
+  font-size: 21px;
+}
+
+#assignments h2 {
+  text-align: center;
+  color: #565c9b;
+}
+
+footer {
+  background-color: #adb0cc;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  margin-bottom: -16px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-bottom: 4px;
+}
+
+footer p {
+  padding-top: 6px;
+  color: #0f0f0f;
+}
