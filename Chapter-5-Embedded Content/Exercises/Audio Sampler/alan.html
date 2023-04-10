@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soundboard</title>
+    <link rel="stylesheet" href="alan.css" />
+  </head>
+  <body>
+    <h1>Alan Patridge Sound Board</h1>
+    <main>
+      <div class="grid">
+        <button class="button" onclick="audio.play()">
+          <p>Ah ha</p>
+        </button>
+
+        <button class="button" onclick="audio2.play()">
+          <p>back of the net</p>
+        </button>
+
+        <button class="button" onclick="audio3.play()">
+          <p>bang out of order</p>
+        </button>
+
+        <button class="button" onclick="audio4.play()">
+          <p>dan</p>
+        </button>
+
+        <button class="button" onclick="audio5.play()">
+          <p>email of the Evening</p>
+        </button>
+
+        <button class="button" onclick="audio6.play()">
+          <p>hello partridge</p>
+        </button>
+
+        <button class="button" onclick="audio7.play()">
+          <p>i ate a scotch egg</p>
+        </button>
+
+        <button class="button" onclick="audio8.play()">
+          <p>i'm confused</p>
+        </button>
+
+        <button class="button" onclick="audio9.play()">
+          <p>yikes</p>
+        </button>
+      </div>
+      <div class="speechbox">
+        <h2>Text to Speech</h2>
+        <textarea
+          id="texttospeech"
+          placeholder="Type something here..."
+        ></textarea>
+        <button id="speechboxbutton">Convert to Speech</button>
+      </div>
+
+      <div class="arrowbuttons">
+        <button class="arrowbutton" disabled>&larr;</button>
+        <button class="arrowbutton" onclick="location.href='alan2.html';">
+          &rarr;
+        </button>
+      </div>
+    </main>
+  </body>
+  <script src="alan.js"></script>
+</html>
