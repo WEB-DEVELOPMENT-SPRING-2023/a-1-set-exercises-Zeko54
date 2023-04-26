@@ -93,7 +93,7 @@ button {
   border-radius: 10px;
   color: rgb(40, 22, 22);
   border: none;
-  background-color: #5fe770;
+  background-color: #fafafa;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   cursor: pointer;
@@ -101,4 +101,8 @@ button {
   margin-bottom: 40px;
   font-family: "Special Elite", cursive;
   font-weight: bold;
+}
+
+button:hover {
+  background-color: #5fe770;
 }
