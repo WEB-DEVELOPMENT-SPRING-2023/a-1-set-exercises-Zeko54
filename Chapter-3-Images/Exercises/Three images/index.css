@@ -1,36 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+/*importing fonts from google*/
 
 h1 {
-  text-align: center;
-  font-family: "Fredericka the Great", cursive;
-  font-weight: 500;
-  border: 2px solid black;
-  margin-left: 10%;
+  text-align: center; /*aligns the text of the h1 tag in the center*/
+  font-family: "Fredericka the Great", cursive; /*Sets the font family of h1 element*/
+  font-weight: 500; /*Sets the font-weight to 500 for the h1 tag*/
+  border: 2px solid black; /*Sets a black solid border of 2px for the h1 tag*/
+  margin-left: 10%; /*Sets the margin properties for h1 element*/
   margin-right: 10%;
   margin-top: 50px;
 }
 
 h3 {
-  font-family: "Shadows Into Light", cursive;
-  font-weight: 500;
+  font-family: "Shadows Into Light", cursive; /*Sets the font family of h3 tag*/
+  font-weight: 500; /*Sets the font-weight to 500 for the h3 tag*/
 }
 
 .main {
-  display: flex;
-  padding-top: 65px;
+  display: flex; /*This sets the display property of the main class to flex which allows its child elements to be positioned in
+ a row or column depending on the value of the flex-direction property.But here i have not defined the direction so it is automatically
+ set to row direction (default direction is row) which shows the three images side by side.*/
+  padding-top: 65px; /*Sets the padding top for the main class*/
 }
 
 .second {
   display: flex;
-  flex-direction: column;
-  border: 2px solid black;
-  background-color: rgba(255, 255, 255, 0.311);
-  margin-bottom: 60px;
-  margin-left: 16px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 42px;
+  /*This sets the display property of the second class to flex which allows its child elements to be positioned in a row or column
+   depending on the value of the flex direction property.*/
+  flex-direction: column; /*the flex direction property is set to column which makes the child elements of second class stack vertically*/
+  border: 2px solid black; /*Sets a black solid border of 2px for the second class*/
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.311
+  ); /*sets the background color of second class*/
+  margin-bottom: 60px; /*Sets the margin bottom of the second class*/
+  margin-left: 16px; /*Sets the margin  left of the second class*/
+  padding-left: 12px; /*Sets the padding  left of the second class*/
+  padding-right: 12px; /*Sets the padding  right of the second class*/
+  padding-top: 42px; /*Sets the padding  top of the second class*/
 }
 
 .one {
@@ -38,20 +48,29 @@ h3 {
   filter: brightness(60%);
   filter: hue-rotate(180deg);
 }
+/*Adding css filter to the img which i have named class one */
 
 .two {
   filter: opacity(95%);
   filter: contrast(150%);
 }
+/*Adding css filter to the img which i have named class two */
 
 .three {
   filter: sepia(85%);
 }
+/*Adding css filter to the img which i have named class three */
 
 body {
-  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
-  border: 5px solid rgb(88, 85, 85);
-  border-style: dotted;
+  background: linear-gradient(
+    to right,
+    #ada996,
+    #f2f2f2,
+    #dbdbdb,
+    #eaeaea
+  ); /*sets the background of body */
+  border: 5px solid rgb(88, 85, 85); /*sets the border for body*/
+  border-style: dotted; /*sets the border style for body */
 }
 
 .pin {
@@ -59,7 +78,7 @@ body {
   margin-left: -70px;
   height: 60px;
   width: auto;
-  background: url(img_navsprites.gif) 0 0;
   position: relative;
   left: 7.3cm;
 }
+/*.pin is a class named to design the images i have added padding margin left height width to the image and have also positioned the image  */
