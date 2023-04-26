@@ -1,23 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600&display=swap");
+/*importing fonts from google*/
 
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(202, 194, 187);
 }
+/*setting the margin and padding to zero for the body tag reset the default margin and padding of the browser lastly adding the 
+background color to the body tag*/
 
 header {
-  display: flex;
-  justify-content: center;
-  background-color: #adb0cc;
-  font-family: "Alkatra", cursive;
-  color: #fff;
+  display: flex; /*this property allows the header element to become a flex container.*/
+  justify-content: center; /*align the content in the center*/
+  background-color: #adb0cc; /*adds a background color*/
+  font-family: "Alkatra", cursive; /*adding font family*/
+  color: #fff; /*adding color*/
 }
 
 nav ul {
-  text-align: center;
+  text-align: center; /*aligning the text in the center*/
 }
 
 nav li {
@@ -25,25 +28,27 @@ nav li {
   padding: 40px;
   font-size: x-large;
 }
+/*displaying li as an inline element , setting its font size and adding padding to it*/
 
 a {
   text-decoration: none;
   color: #565c9b;
 }
+/*removing the default text decoration from [a] and adding color to [a]*/
 
 nav {
-  background-color: #d6d3c2;
-  font-family: "Ubuntu", sans-serif;
-  display: flex;
-  justify-content: center;
+  background-color: #d6d3c2; /*addign background color*/
+  font-family: "Ubuntu", sans-serif; /*adding font family*/
+  display: flex; /*this property allows the nav element to become a flex container.*/
+  justify-content: center; /*aligning the content in the center*/
 }
 
 #tasks {
-  border-radius: 30px;
+  border-radius: 30px; /*giving the id tasks a border radius*/
 }
 
 #tasks h2 {
-  text-align: center;
+  text-align: center; /*alignign the text in the center*/
 }
 
 aside {
@@ -57,9 +62,10 @@ aside {
   width: 32%;
   float: right;
 }
+/*giving aside a background color, font family,font size,padding left ,right ,bottom ,margins and setting its width also positioning it*/
 
 aside h2 {
-  color: #565c9b;
+  color: #565c9b; /*setting the color of aside h2*/
 }
 
 button {
@@ -74,6 +80,7 @@ button {
   bottom: 52px;
   padding: 10px 20px;
 }
+/*setting the background color,removing border adding border raius adding color, cursoe,fontsize and positioning it. also adding the padding.*/
 
 #intro {
   background-color: #d6d3c2;
@@ -85,15 +92,18 @@ button {
   border-radius: 30px;
   color: #565c9b;
 }
+/*setting the background color fontfamily margin its height and color. also displaying it as an inline block element and adding
+border radius to it. overflow hidden hides the extra corner.*/
 
 #intro h2 {
-  padding-left: 6cm;
+  padding-left: 6cm; /*adding padding left to intro h2*/
 }
 
 #schedule {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
 }
+/*aligning the text to center and setting the font family for id schedule*/
 
 #schedule table {
   width: 90%;
@@ -101,6 +111,7 @@ button {
   border-collapse: collapse;
   font-size: 21px;
 }
+/*giving id schedule table with adding margin left collapsing the border and lastl setting the font size*/
 
 #schedule th,
 #schedule td {
@@ -108,19 +119,24 @@ button {
   padding: 8px;
   text-align: left;
 }
+/*giving th and tf a solid white 1px border and padding also aligning it to the left*/
 
 #schedule th {
   background-color: #cac2bb;
   color: black;
 }
+/*addding background color and color to th*/
 
 #schedule tr {
   color: rgb(41, 32, 32);
 }
+/*adding color to tr*/
 
 #schedule tr:nth-child(even) {
   background-color: #dcd4d4;
 }
+/*evenly setting the background color of tr*/
+
 #theader {
   display: flex;
   justify-content: center;
@@ -134,6 +150,8 @@ button {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+/*displaying theader as flex then aligning the content in center, adding the background color, height, margin top,margin left,
+mergin right, bottom left radius and bottom rigth radius.*/
 
 #resources {
   border: 2px solid #d6d3c2;
@@ -148,11 +166,14 @@ button {
   height: 320px;
   font-size: 21px;
 }
+/*adding border , fontfamily , borderradius, background color, margin left,margin top ,margin bottom, width ,height and font size
+also displaying it as an inline element*/
 
 #resources h2 {
   text-align: center;
   color: #565c9b;
 }
+/*aligning the text to center and addign the color*/
 
 #assignments {
   border: 2px solid #d6d3c2;
@@ -167,11 +188,14 @@ button {
   height: 320px;
   font-size: 21px;
 }
+/*giving it a border of 2px adding font family, border radius, background color,margin right,margin top,margin top,margin bottom
+width ,height and fontsize and positioning it to right*/
 
 #assignments h2 {
   text-align: center;
   color: #565c9b;
 }
+/*aligning the text to center and giving it purple color*/
 
 footer {
   background-color: #adb0cc;
@@ -179,13 +203,16 @@ footer {
   text-align: center;
   margin-bottom: -16px;
 }
+/*giving it a background color, font family and margin bottom ,also aligning the text.*/
 
 footer ul {
   list-style-type: none;
   padding-bottom: 4px;
 }
+/*removing the default list style type and adding padding bottom*/
 
 footer p {
   padding-top: 6px;
   color: #0f0f0f;
 }
+/*adding padding top and color*/
