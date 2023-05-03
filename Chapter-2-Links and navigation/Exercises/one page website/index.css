@@ -2,25 +2,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+/*importing fonts from google*/
 
 ul {
   text-align: center;
 }
+/*setting the text-align to center for ul*/
 
 li {
   display: inline;
   padding: 20px;
   font-size: 35px;
 }
+/*setting the display,padding and font-size for li tag.*/
 
 a {
   text-decoration: none;
   color: #252525;
 }
+/*setting the text decoration and color for a.*/
 
 a:hover {
   color: bisque;
 }
+/*setting the hover effect color for a tag.*/
 
 nav {
   background-color: #918b8b;
@@ -30,6 +35,7 @@ nav {
   margin-top: -16px;
   height: 46px;
 }
+/*setting the background-color,font-family,letter-spacing,font-weight,margin-top and height for nav tag*/
 
 header {
   position: relative;
@@ -38,22 +44,26 @@ header {
   font-size: 35px;
   color: #d320209f;
 }
+/*setting the postion of header, aligning it  and setting it font-family, font-size and color.*/
 
 header h1 {
   margin-top: 26px;
   margin-bottom: 0;
 }
+/*setting the margin-top and bottom for header h1.*/
 
 header p {
   margin-top: 16px;
   margin-bottom: 10px;
 }
+/*setting the margin-top and margin-bottom for header p.*/
 
 body {
   background-color: #e7dfdf;
   margin: 0;
   padding: 0;
 }
+/*setting the background color, margin and padding for the body tag */
 
 #plot {
   color: #424040;
@@ -61,6 +71,7 @@ body {
   border-radius: 30px;
   overflow: hidden;
 }
+/*setting the color, adding the border , border-radius and the overflow property to id plot. */
 
 .plot {
   border-bottom: solid black;
@@ -70,6 +81,7 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+/*adding border-bottom, background-color, margin, padding-left, padding-top and padding-bottom for the plot class.*/
 
 #keyinformation {
   color: #424040;
@@ -78,6 +90,7 @@ body {
   overflow: hidden;
   margin-top: 30px;
 }
+/*setting the color, adding the border , border-radius, the overflow property and a margin top to id key information. */
 
 .keyinformation {
   border-bottom: solid black;
@@ -87,6 +100,7 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+/*adding border-bottom, background-color, margin, padding-left, padding-top and padding-bottom for the keyinformation class.*/
 
 #cast {
   color: #424040;
@@ -95,6 +109,7 @@ body {
   overflow: hidden;
   margin-top: 30px;
 }
+/*setting the color, adding the border , border-radius, the overflow property and a margin top to id cast. */
 
 .cast {
   border-bottom: solid black;
@@ -104,6 +119,7 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+/*adding border-bottom, background-color, margin, padding-left, padding-top and padding-bottom for the cast class.*/
 
 #characters {
   color: #424040;
@@ -112,6 +128,7 @@ body {
   overflow: hidden;
   margin-top: 30px;
 }
+/*setting the color, adding the border , border-radius, the overflow property and a margin top to id characters. */
 
 .characters {
   border-bottom: solid black;
@@ -121,6 +138,7 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+/*adding border-bottom, background-color, margin, padding-left, padding-top and padding-bottom for the cast characters.*/
 
 #reviews {
   color: #424040;
@@ -130,6 +148,7 @@ body {
   margin-top: 30px;
   margin-bottom: 15px;
 }
+/*setting the color, adding the border , border-radius, the overflow property and a margin top to id reviews. */
 
 .reviews {
   border-bottom: solid black;
@@ -139,15 +158,7 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-
-.text {
-  text-align: center;
-  font-size: xx-large;
-  font-family: "Smokum", cursive;
-  letter-spacing: 1px;
-  margin-top: -40px;
-  margin-bottom: 8px;
-}
+/*adding border-bottom, background-color, margin, padding-left, padding-top and padding-bottom for the cast reviews.*/
 
 main h1 {
   font-family: "Smokum", cursive;
@@ -155,6 +166,7 @@ main h1 {
   font-weight: bold;
   color: #424040;
 }
+/*setting the font-family, letter-spacing,font-weight and color for the h1 tag of main*/
 
 h4 {
   font-family: "Smokum", cursive;
@@ -163,17 +175,20 @@ h4 {
   font-size: 28px;
   padding-left: 12px;
 }
+/*setting the font-family, letter-spacing, color,font-size and padding-left for the h4 tag*/
 
 p {
   font-family: "Tilt Neon", cursive;
   font-size: 20px;
   padding-left: 12px;
 }
+/*setting the font-family,font-size and padding-left for p tag.*/
 
 main {
   padding-left: 50px;
   padding-right: 50px;
 }
+/*setting the padding-left and padding-right for the main tag.*/
 
 #image-container {
   display: flex;
@@ -184,17 +199,21 @@ main {
   margin-left: 7px;
   margin-right: 7px;
 }
+/*setting the display,alignment,margins and justifying the constent as space between for the image container*/
 
 #one {
   width: 100px;
   border: solid black;
 }
+/*setting the width and border for image one*/
 
 #two {
   width: 75px;
 }
+/*setting the width for image two*/
 
 #three {
   width: 65px;
   border: solid black;
 }
+/*setting the width and border for image three*/
