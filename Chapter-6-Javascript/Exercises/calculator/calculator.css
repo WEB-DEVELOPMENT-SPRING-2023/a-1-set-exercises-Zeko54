@@ -1,0 +1,81 @@
+body {
+  background-color: #d8d4d4;
+  text-transform: capitalize;
+  margin-top: 80px;
+}
+/*setting the background color, text transformation, and margin for the body tag */
+
+.calculator {
+  width: 20%;
+  height: auto;
+  margin: auto;
+  padding: 40px;
+  background-color: #589067;
+  border: 4px solid #3a342a;
+  border-radius: 10px;
+}
+/* Setting the width, height, margin, padding, background color, border, and border radius for the container element with the class name 'calculator'*/
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* Setting the text alignment and margin for the h1 heading tag */
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+/* Setting the display, flex direction, and margin for the container elements with the class name 'input'*/
+
+input[type="number"] {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
+}
+/* Setting the border radius, border, padding, and box shadow for input tag of type number*/
+
+input[type="number"]:focus {
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}
+/* Setting the box shadow for input tag of type number when they are in focus */
+
+button {
+  background-color: #2e7a24;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+/* Setting the background color, text color, cursor, padding, border, border radius, and text transformation for the button tag */
+
+.calcbutton {
+  display: flex;
+  justify-content: center;
+}
+/* Setting the  display and justify content for the container element with the class name 'calcbutton' */
+
+button:hover {
+  background-color: #3a342a;
+}
+/* Set background color for the button tag when it is hovered */
+
+b {
+  display: flex;
+  padding-bottom: 8px;
+}
+/* Setting display, padding, and bottom margin for the bold elements */
+
+p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 26px;
+  display: none;
+}
+/* Setting the text alignment, font size, font weight, top margin, and display for the paragraph element. */
+/* The display is set to 'none' because it is hidden initially and will only show when the 'calculate total cost' button is clicked.*/

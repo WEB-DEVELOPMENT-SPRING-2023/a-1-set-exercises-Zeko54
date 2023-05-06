@@ -1,0 +1,92 @@
+header {
+  font-family: Tahoma;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #17072b;
+  color: #ffffff;
+}
+/*seting the font family to tahoma, aligning the text to center, adding a padding top of 15px,adding a background color and color*/
+
+li {
+  display: inline; /*the display inline property display's li as an inline element hence li elements will be displayed side by side */
+  padding-right: 24px; /*adding a padding right of 24px to li*/
+}
+
+a {
+  text-decoration: none; /*this property will remove text decoration from a tag*/
+  font-size: large; /*setting the font size of a tag*/
+  color: #ffffff; /*setting the color of a tag*/
+}
+
+nav {
+  background-color: #17072b;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+/*adding background color and padding top and bottom for nav tag*/
+
+body {
+  margin: 0; /*setting the margin to zero resets the default margin of the browser */
+  font-family: Arial; /*setting the font family to arial*/
+  font-weight: 400; /*setting the font weight to 400*/
+}
+
+h1 {
+  margin: 0; /*setting the margin to zero resets the default margin of the browser */
+  text-decoration: underline; /*setting the decoration of h1 as an underline*/
+  text-underline-offset: 5.5px; /*this creates space between the text and the underline applied to that text*/
+  font-weight: 700; /*setting the font weight to 700 */
+}
+
+h2 {
+  text-decoration: underline; /*setting the decoration of h2 as an underline*/
+  text-underline-offset: 5.5px; /*this creates space between the text and the underline applied to that text*/
+}
+
+section {
+  padding-top: 8px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  width: 58%;
+}
+/*adding padding top left bottom and width to section tag*/
+
+section p {
+  font-size: 21.5px;
+  display: inline;
+}
+/*setting the font size and displaying the text as inline to remove extra space*/
+
+aside {
+  color: white;
+  font-size: larger;
+  margin-top: 13px;
+  padding: 20px;
+  margin-left: 20px;
+  width: 32%;
+  float: right;
+  background-color: #172d67;
+}
+/*setting the color font size , adding margin top ,padding ,marginleft , ading with and positiong it to right lastly adding the background color*/
+
+aside img {
+  width: 230px;
+  height: 230px;
+  margin-top: 30px;
+}
+/*setting the height and with of the img and also adding margin top to it*/
+
+section img {
+  margin-top: 20px;
+  width: 830px;
+  height: 348px;
+}
+/*adding margin top to the img and giving the img height and width*/
+
+footer {
+  background-color: #8c15e9;
+  color: #ffffff;
+  padding: 10.5px;
+  text-align: center;
+}
+/*adding background color, color, padding and alligning the text to center */

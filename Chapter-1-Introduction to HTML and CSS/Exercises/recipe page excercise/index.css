@@ -1,0 +1,70 @@
+.dish {
+  text-align: center;
+}
+/* Centers text in the dish class */
+
+.ing {
+  margin-top: 12px;
+  background-color: rgb(232, 228, 228);
+  display: inline-block;
+}
+/* Sets margin and background color for the ing class, and makes it an inline block */
+
+.ing h2 {
+  padding-left: 25px;
+  color: rgb(153, 223, 22);
+  font-family: monospace;
+}
+/* Sets padding and font properties for the h2 element inside the ing class */
+
+img {
+  height: 220px;
+  width: auto;
+  position: relative;
+  bottom: -4px;
+}
+/* Sets height, width, and position for images */
+
+.meth {
+  position: relative;
+  float: right;
+  width: 84%;
+  top: 12px;
+  padding-bottom: 28px;
+  background-color: rgb(232, 228, 228);
+}
+/* Sets position, width, and padding for the meth class, and adds background color */
+
+.meth h2 {
+  color: rgb(153, 223, 22);
+  padding-left: 12cm;
+  font-family: monospace;
+}
+/* Sets padding and font properties for the h2 element inside the meth class */
+
+h1 {
+  color: rgb(153, 223, 22);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* Sets color and font properties for the h1 element */
+
+hr {
+  border: solid rgb(153, 223, 22);
+}
+/* Adds a solid line border with the specified color */
+
+p {
+  padding-top: 10px;
+  font-family: cursive;
+}
+/* Sets padding and font properties for paragraphs */
+
+body {
+  background-color: cornsilk;
+}
+/* Sets background color for the body of the page */
+
+li {
+  font-family: monospace;
+}
+/* Sets font properties for list items */

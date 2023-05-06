@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+/*imports font from google*/
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+/*displays the video as a flex which turns the video container to a flex container, aligns it to center and adds a margin top to it*/
+
+video {
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+}
+/* sets the width and height of the video element to 50% of its container, adds rounded corners of 20px border radius. lastly it 
+applies a box shadow with a 20px blur radius and 2px offset to all sides.*/
+
+h1 {
+  text-align: center;
+  font-family: "Gamja Flower", cursive;
+  color: pink;
+  font-size: 58px;
+  margin-top: 70px;
+  margin-left: 3cm;
+  margin-right: 3cm;
+}
+/*aligning the text to center, adding color,font size,font family, and margins for h1 tag*/
+
+p {
+  position: absolute;
+  bottom: 15mm;
+  left: 24pc;
+  font-family: "Gamja Flower", cursive;
+  font-size: 20px;
+  color: coral;
+}
+/*positioning the p tag and adding color font size and font family for p tag*/
+
+body {
+  background-color: honeydew;
+  border: 2px solid salmon;
+  border-style: dashed;
+  height: 184mm;
+}
+/*Adding the background color, border,border-style and height to the body*/

@@ -1,0 +1,152 @@
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!the page loads slowly because of the fonts !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+/*importing fonts from google */
+
+body {
+  background-color: #ffe7d4;
+  text-align: center;
+}
+/*sets the background color of the webpage to light peach color and centers text within the body of the page.*/
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  font-family: "Rubik Pixels", cursive;
+}
+/*adds a top margin of 60 pixels and a bottom margin of 100 pixels,  applies the Rubik Pixels font from the Google Fonts import.*/
+
+p {
+  font-family: "Syne Mono", monospace;
+  font-size: 14px;
+}
+/*applies Syne Mono font from the Google Fonts import and sets the font size to 14 pixels.*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  grid-gap: 20px;
+}
+/*sets the display property to grid and creates three columns that are each 220 pixels wide with a gap of 20 pixels between each column.*/
+
+.btn {
+  background-color: #4caf70;
+  border: none;
+  color: #f0eaea;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+}
+/*styles the button with  green background, no border, white text, centered text, no underline, and is displayed as an inline 
+block with other elements.It has a font size of 16 pixels, a margin on the left for 30 pixels, a cursor style of pointer, a border 
+with a radius of 5 pixels, and a width of 200 pixels.*/
+
+.btn:hover {
+  background-color: #187b56;
+}
+/*adds a hover effect to the btn class with a darkish green color*/
+
+.speechbox {
+  margin: 50px;
+  position: absolute;
+  left: 50pc;
+  bottom: 9.7pc;
+}
+/*positions the speech box with a margin of 50 pixels , an absolute position with respect to its parent element, a distance of 50pc
+ from the left side of its parent element and 9.7pc from the bottom side of its parent element.*/
+
+.speechbox h2 {
+  font-family: "Syne Mono", monospace;
+}
+/*styles the speech box's heading element with a monospace font family.*/
+
+#texttospeech {
+  width: 400px;
+  height: 175px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #4caf70;
+  margin-bottom: 10px;
+}
+/*styles the textarea element with a width of 400 pixels and height of 175 pixels. It also adds  padding of 10 pixels, font size 
+of 16 pixels, and a border with a radius of 5 pixels. The border is 2 pixels wide and its color is green.*/
+
+textarea {
+  resize: none;
+}
+/*disables resize feature in  the textarea element*/
+
+#speechboxbutton {
+  background-color: #4caf70;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Syne Mono", monospace;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*styles the speechbox button element with a green background color, no border, white text, a padding of 10 pixels on the top and 
+bottom and 20 pixels on the left and right, centered text, no underline, and an inline display. It has a font size of 16 pixels
+ and a monospace font family with a margin of 10 pixels on all sides, a cursor style of pointer, and a rounded border with 
+ a radius of 5 pixels.*/
+
+#speechboxbutton:hover {
+  background-color: #187b56;
+}
+/*adds a hover effect to the speechbox button  with a darkish green color*/
+
+.arrowbuttons {
+  margin-top: 35px;
+  position: absolute;
+  left: 1.7pc;
+  bottom: 3pc;
+}
+/* styles the container for arrow buttons. It sets the top margin to 35 pixels, and positions the container absolutely with a distance
+ of 1.7 pc of the parent container from the left and 3 pc from the bottom.*/
+
+.arrowbutton {
+  background-color: #4caf70;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+/*styles an individual arrow button within the container.sets the background color to  green, removes the border, sets the text 
+color to white, adds 10 pixels of padding. aligns the text to the center,removes any text decoration, and sets the display to 
+inline block. It also sets the font size to 16 pixels, adds 10 pixels of margin around the button, sets the cursor to pointer,
+and adds a border radius of 50% to create a circular shape.*/
+
+.arrowbutton:hover {
+  background-color: #187b56;
+}
+/*adds a hover effect to the arrow buttons with a darkish green color*/
+
+:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+/*styles the disabled button on the page. It sets the opacity to 0.4 to make it semi-transparent and changes the cursor to not-allowed
+ icon to indicate that it cannot be interacted with.*/
+
+.arrowbutton:disabled:hover {
+  background-color: #a56b45;
+}
+/*styles the disabled arrow button when it is being hovered over by the mouse. It sets the background color to a brownish shade.*/

@@ -1,0 +1,84 @@
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!the page loads slowly because of the fonts !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soundboard</title>
+    <link rel="stylesheet" href="alan.css" />
+  </head>
+  <body>
+    <!--The body element contains the main content of the document-->
+    <h1>Alan Patridge Sound Board</h1>
+    <!-- The h1 tag defines the largest heading, in this case the main heading for the page -->
+    <div class="grid">
+      <!--div tag is used to add division and contain elements. Here it is given a class grid so we can style it.-->
+      <button class="btn" onclick="audio10.play()">
+        <p>A man has fallen</p>
+      </button>
+      <!--button tag as its name impies is used to create a clickable button in the webpage. It is given the class of [btn] so that
+      all buttons can be styled-->
+
+      <button class="btn" onclick="audio11.play()">
+        <p>Auuuuugh</p>
+      </button>
+
+      <button class="btn" onclick="audio12.play()">
+        <p>Baba Haft</p>
+      </button>
+      <!--The onclick function triggers the play() method of the audio element when
+      the button is clicked-->
+
+      <button class="btn" onclick="audio13.play()">
+        <p>fool</p>
+      </button>
+
+      <button class="btn" onclick="audio14.play()">
+        <p>A 1000 years of pain</p>
+      </button>
+
+      <button class="btn" onclick="audio15.play()">
+        <p>Neither</p>
+      </button>
+      <!--button tag as its name impies is used to create a clickable button in the webpage. It is given the class of [btn] so that
+      all buttons can be styled-->
+
+      <button class="btn" onclick="audio16.play()">
+        <p>wow</p>
+      </button>
+
+      <button class="btn" onclick="audio17.play()">
+        <p>yeet</p>
+      </button>
+      <!--The onclick function triggers the play() method of the audio element when
+      the button is clicked-->
+
+      <button class="btn" onclick="audio18.play()">
+        <p>how absurd</p>
+      </button>
+    </div>
+    <!--container for text to speech-->
+    <div class="speechbox">
+      <h2>Text to Speech</h2>
+      <textarea
+        id="texttospeech"
+        placeholder="Type something here..."
+      ></textarea>
+      <!-- A textarea element for users to input the text which is converted to speech-->
+      <button id="speechboxbutton">Convert to Speech</button>
+      <!-- A button element that triggers the text-to-speech conversion -->
+    </div>
+
+    <!--container for arrows-->
+    <div class="arrowbuttons">
+      <button class="arrowbutton" onclick="location.href='alan.html';">
+        &larr;
+      </button>
+      <button class="arrowbutton" disabled>&rarr;</button>
+      <!--when the button is clicked it will open another page and [&larr] is  the symbbol for leftarrow, [&rarr] is the symbol for
+       right arrow. -->
+    </div>
+  </body>
+  <script src="alan.js"></script>
+</html>

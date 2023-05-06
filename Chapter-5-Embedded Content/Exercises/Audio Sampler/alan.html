@@ -1,0 +1,84 @@
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!the page loads slowly because of the fonts !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soundboard</title>
+    <link rel="stylesheet" href="alan.css" />
+  </head>
+  <body>
+    <!--The body element contains the main content of the document-->
+    <h1>Alan Patridge Sound Board</h1>
+    <!-- The h1 tag defines the largest heading, in this case the main heading for the page -->
+    <div class="grid">
+      <!--div tag is used to add division and contain elements. Here it is given a class grid so we can style it.-->
+      <button class="btn" onclick="audio.play()">
+        <p>Ah ha</p>
+      </button>
+      <!--button tag as its name impies is used to create a clickable button in the webpage. It is given the class of [btn] so that
+      all buttons can be styled-->
+
+      <button class="btn" onclick="audio2.play()">
+        <p>back of the net</p>
+      </button>
+
+      <button class="btn" onclick="audio3.play()">
+        <p>bang out of order</p>
+      </button>
+      <!--The onclick function triggers the play() method of the audio element when
+      the button is clicked-->
+
+      <button class="btn" onclick="audio4.play()">
+        <p>dan</p>
+      </button>
+
+      <button class="btn" onclick="audio5.play()">
+        <p>email of the Evening</p>
+      </button>
+      <!--button tag as its name impies is used to create a clickable button in the webpage. It is given the class of [btn] so that
+      all buttons can be styled-->
+
+      <button class="btn" onclick="audio6.play()">
+        <p>hello partridge</p>
+      </button>
+
+      <button class="btn" onclick="audio7.play()">
+        <p>i ate a scotch egg</p>
+      </button>
+      <!--The onclick function triggers the play() method of the audio element when
+      the button is clicked-->
+
+      <button class="btn" onclick="audio8.play()">
+        <p>i'm confused</p>
+      </button>
+
+      <button class="btn" onclick="audio9.play()">
+        <p>yikes</p>
+      </button>
+    </div>
+    <!--container for text to speech-->
+    <div class="speechbox">
+      <h2>Text to Speech</h2>
+      <textarea
+        id="texttospeech"
+        placeholder="Type something here..."
+      ></textarea>
+      <!-- A textarea element for users to input the text which is converted to speech-->
+      <button id="speechboxbutton">Convert to Speech</button>
+      <!-- A button element that triggers the text-to-speech conversion -->
+    </div>
+
+    <!--container for arrows-->
+    <div class="arrowbuttons">
+      <button class="arrowbutton" disabled>&larr;</button>
+      <button class="arrowbutton" onclick="location.href='alan2.html';">
+        &rarr;
+      </button>
+      <!--when the button is clicked it will open another page and [&larr] is  the symbbol for leftarrow, [&rarr] is the symbol for
+       right arrow. -->
+    </div>
+  </body>
+  <script src="alan.js"></script>
+</html>

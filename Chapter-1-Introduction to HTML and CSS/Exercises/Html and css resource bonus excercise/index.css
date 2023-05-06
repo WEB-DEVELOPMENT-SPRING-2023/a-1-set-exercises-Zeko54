@@ -1,0 +1,154 @@
+pre {
+  background-color: #f1f1f1; /*sets the background color of pre tag*/
+  padding: 20px; /*sets the padding of pre tag to 20px*/
+  border: 1px solid whitesmoke;
+  border-radius: 20px; /*add the border radius of pre tag to 20px*/
+  font-size: 16px; /*sets the font size of pre tag to 16px*/
+  font-family: monospace; /*sets the font family of pre tag*/
+}
+
+.box {
+  background-color: #bfbaba; /*sets the background color of the class box*/
+  width: 300px; /*sets the width of class box as 300px*/
+  height: 200px; /*sets the height of class box as 200px*/
+  padding: 20px; /*sets the padding of class box as 20px*/
+  text-align: center; /*aligns the text to the center in the class box*/
+  font-size: 24px; /*sets the font size of class box to 24px */
+  font-family: Arial, sans-serif; /*sets the font family of box class */
+  border-radius: 20px; /*adds a border radius of 20px to the class box */
+}
+
+body {
+  background-color: #e3e9c2; /*sets thebackground color of the body tag*/
+  margin: 0; /*sets the margin of the body tag to zero resets the pages default margin*/
+}
+
+header {
+  text-align: center; /*aligns the text of the header element in the center  */
+}
+
+h1 {
+  margin: 0; /*sets the margin and padding of h1 to zero resets the pages default margin and padding*/
+  padding: 0;
+}
+
+#h2 {
+  margin: 0; /*sets the margin and padding of h1 to zero resets the pages default margin and padding*/
+  padding: 0;
+  font-size: 32px;
+  font-family: arial;
+}
+
+#h3 {
+  margin: 0; /*sets the margin and padding of h1 to zero resets the pages default margin and padding*/
+  padding: 0;
+  font-family: arial;
+}
+
+h4 {
+  margin: 0; /*sets the margin and padding of h1 to zero resets the pages default margin and padding*/
+  padding: 0;
+}
+
+h5 {
+  margin: 0; /*sets the margin and padding of h1 to zero resets the pages default margin and padding*/
+  padding: 0;
+}
+
+h6 {
+  margin: 0; /*sets the margin and padding of h1 to zero resets the pages default margin and padding*/
+  padding: 0;
+}
+
+nav {
+  background-color: #bfbaba; /*sets the background color of nav bar */
+  padding: 1px 0px 1px 0px; /*sets the top and bottom padding of nav bar as 1px and left and right as 0px*/
+  margin-bottom: 25px; /*adds the margin-bottom as 25px to the nav bar*/
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /*adds a font family for nav bar*/
+}
+
+a {
+  text-decoration: none; /*this removes any text decoration from the text in a tag*/
+}
+
+a:hover {
+  color: black; /*sets the hover color to black*/
+}
+
+nav li {
+  list-style-type: none; /*this property will remove any list style from the nav bar*/
+}
+
+nav ul {
+  display: flex; /*displays an element as a block level flex container*/
+  justify-content: space-around; /*aligns the flex items to the center*/
+  align-items: center; /*align items to the center for the nav bar*/
+}
+
+li {
+  font-size: larger; /*sets the font size of li  tag as large*/
+  font-weight: 900; /*sets the font weight as 900 for the li tag*/
+}
+
+header h1 {
+  background-color: burlywood; /*sets the background color of header h1 to burlywood*/
+  padding: 10px 0px 10px 0px; /*sets the padding top and bottom as 10px and left and right to 0px of the header h1*/
+  font-family: "Courier New", Courier, monospace; /*adds a font family to header h1*/
+}
+
+.main {
+  padding: 0 26%; /*Sets the padding as 0 for top and bottom and 26% for left and right side of the main class */
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*adds a font family to the p tag*/
+}
+
+h3 {
+  font-family: monospace; /*adds a font family to h3 tag*/
+}
+
+h2 {
+  font-family: monospace; /*adds a font family to h2 tag*/
+}
+
+footer {
+  background-color: blue;
+  padding: 20px;
+}
+
+#yellow {
+  background-color: yellow; /*adds a yellow color background to id [yellow]*/
+}
+
+#blue {
+  color: blue; /*adds a blue color to id [blue]*/
+}
+
+#font {
+  font-size: 32px; /*sets the font size to 32px in the id [font]*/
+}
+
+#fontfam {
+  font-family: "Times New Roman", serif; /*adds a font-family to the id [fontfam]*/
+}
+
+#align {
+  text-align: right; /*aligns the text to the center for the id [align]*/
+}
+
+#padding {
+  padding: 50px; /*adds a padding to the id [padding]*/
+}
+
+#margin {
+  margin: 30px; /*adds a margin to the id [margin]*/
+}
+
+#height {
+  height: 90px; /*sets the height to 90 px for the id [height]*/
+}
+
+#width {
+  width: 70px; /*sets the width to 70px for the id [width]*/
+}

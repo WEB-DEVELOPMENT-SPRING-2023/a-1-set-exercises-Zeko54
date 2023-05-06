@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RGB Color Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>RGB Color Guessing Game</h1>
+    <!-- Main heading for the game -->
+    <div class="main-container">
+      <!--div with the class 'main-container' as its name implies is the main container for rgb game-->
+      <div class="score-container">
+        <!-- div with the class 'score-container' which displays the score and number of lives of the player. -->
+        <h2>Score: <span id="score"></span></h2>
+        <!--heading for the player's score. The score is represented by a span with the id score -->
+        <h2>Lives: <span id="lives"></span></h2>
+        <!-- heading for the player's lives. The lives are represented by a span with the id lives -->
+      </div>
+
+      <div class="rgb-value-container">
+        <!-- div with the class rgb-value-container that displays the RGB value -->
+        <h2>Guess the RGB value:</h2>
+        <!--Heading for the RGB value. -->
+        <b><p id="value"></p></b>
+        <!-- paragraph with the id value that displays the RGB value as bold text. -->
+      </div>
+
+      <div class="colors-container">
+        <!--div with the class colors-container that displays the colors the player can choose from. -->
+        <h2>Choose a color:</h2>
+        <!--heading for the color choice -->
+        <div class="color"></div>
+        <!--div with the class color that represents one of the color choices.-->
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+      </div>
+
+      <div class="message-container">
+        <!--div with the class message-container that displays the messages to the player. -->
+        <p id="message"></p>
+        <!--paragraph with the id message that displays messages to the player. -->
+      </div>
+
+      <div class="button-container">
+        <!--div with the class button-container that contains a restart button. -->
+        <button class="button">Restart</button>
+        <!-- restart button with the class "button". -->
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
